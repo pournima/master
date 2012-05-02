@@ -3,11 +3,13 @@ master
 
 spike
 Features:
-1)Camel Case format 
-2)Naming Convension
-3)Declaration variable for a type in single declaration
-4)Removed un-used declaration
-5)Common method written multiple time. So Added method PlayerTurn, AddScoreRightPlayer, AddScoreWrongPlayer methods
+1)Main Spike Folder-GALLEYLIVE
+2)Sorted the files css,html,png/gif,jpg,js,php,java into folder named css,html,icons,images,javascript,php,classes respectively.
+3)Camel Case format 
+4)Naming Convension
+5)Declaration variables for a type in single declaration
+6)Removed un-used declaration
+7)Common method written multiple time. So Added method PlayerTurn, AddScoreRightPlayer, AddScoreWrongPlayer methods
 
 public class RajaMantri extends Activity {
     
@@ -88,7 +90,7 @@ public class RajaMantri extends Activity {
 	Button btnRajaMantri, btnHelp, btnShowResult, btnRestart, btnSignin, btnGuess, btnPlay, btnMainMenu;
 	static Button btnPod1, btnPod2, btnPod3, btnPod4;
 
-	ImageView imageView;
+	//ImageView imageView;
 	EditText editTxtPlayer1, editTxtPlayer2, editTxtPlayer3, editTxtPlayer4, edt2, edt3, edt4;
 	
 	TextView lblPlayer1, lblPlayer2, lblPlayer3, lblPlayer4;
